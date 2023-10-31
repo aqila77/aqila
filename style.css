@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.navbar .menu ul li {
+    display: inline;
+    margin-right: 10%;
+    padding-left: 70px;
+    font-family: 'montsetrrat', sans-serif ;
+}
+le
+.navbar .menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main .tulisan h1{
+    font-family: 'poppins',sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.main .tulisan p {
+    font-family: 'Montsetrrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.main .tulisan button {
+    background-color:#FB9100;
+    color: white;
+    padding: 25px 70px;
+    font-family: 'poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.main .tulisan button:hover {
+    background-color: rgb(219, 219, 219);
+    color: #FB9100;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.main {
+    margin-top: 8rem;
+}
+
+.main .tulisan {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.main .tulisan img {
+    margin-top: 40%;
+}
+
+.main .gambar {
+    margin-left: 10%;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px;
+}
+
+.about .tulisan2 h1{
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    margin-top: 30%;
+}
+
+.about .tulisan2 p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montsetrrat', sans-serif;
+}
+
+.palingbawah {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 37px;
+}
+
+.palingbawah {
+    margin-bottom: 8rem;
+}
+
+.palingbawah .tulisan {
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.palingbawah .tulisan h1 {
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    padding-top: 200px;
+}
+
+.palingbawah .tulisan p {
+    font-family: 'Montsetrrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.palingbawah .tulisan button {
+    background-color: #FB9100;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+.palingbawah .tulisan button:hover {
+    background-color: rgb(219, 219, 219);
+    color: #FB9100;
+}
+
+.palingbawah .gambar .dot {
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 150px;
+}
+.palingbawah .gambar .icecream {
+    position: absolute;
+    padding-left: 240px;
+    padding-top: 20px;
+}
+.palingbawah .gambar .dot1 {
+    position: absolute;
+    padding-left: 110px;
+    padding-top: 540px;
+}
